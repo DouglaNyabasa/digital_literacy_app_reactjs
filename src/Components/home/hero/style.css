@@ -1,0 +1,13 @@
+/* styles.css or your relevant CSS file */
+
+.fixed-typewriter {
+  position: fixed;
+  top: 20px; /* Adjust this value to position it vertically */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center adjustment */
+  z-index: 1000; /* Ensure it appears above other elements */
+  background-color: rgba(255, 255, 255, 0.8); /* Optional background */
+  padding: 10px; /* Optional padding */
+  border-radius: 5px; /* Optional rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
